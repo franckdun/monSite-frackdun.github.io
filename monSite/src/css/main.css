@@ -1,0 +1,152 @@
+
+
+/*GLOBAL
+
+fonts:font-family: 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+
+.heading-site{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+}
+
+
+.COLORED {
+    height: 250px;
+    width: 100%;
+    background-color: #0077ff;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+.header {
+  
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px; 
+    line-height: 70px;  
+    background-color:transparent; 
+  /*z-index: 999px;
+    position: fixed;  */
+ 
+}
+
+.header .header-logo {
+    color: #c4f306;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    font-size: 20px;
+
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #fbdb06;
+    
+}
+.header .header-menu a:hover{
+    color: #06c1f5;
+}
+
+
+/* BANNER*/
+
+.banner{
+    margin-top: 0px;
+}
+
+.banner .banner-image{
+    position: relative;
+}
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 18%;
+}  
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: white;
+   
+}
+
+
+/*ABOUT US*/
+
+.about .about-single-element .icon{
+    font-size: 50px;
+    color: #fed136;
+    width: 40px;
+    margin: 25px;
+}
+
+.about .about-single-element {
+    text-align: center;
+
+}
+
+.about .about-single-element p {
+    text-align: left;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #707274;
+}
+
+/* ------------------- FOOTER -------------*/
+
+.footer .footer-informations {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footer-informations ul{
+    padding: 0;
+}
+
+.footer .footer-informations ul li  {
+    display: inline-block;
+    list-style-type: none;
+        
+    }
+
+/* -------------------MODAL -------------*/
+
+.own-modal{
+    padding-top: 120px;
+}
+
+/*
+    RESPONSIVE EXEMPLE
+*/
+
+@nedia screen and (max-width: 600px) {
+    #open_modal {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
